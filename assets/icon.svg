@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title">
+  <title id="title">Jr. Studio sparkle mark</title>
+  <defs>
+    <linearGradient id="background" x1="128" y1="96" x2="880" y2="936" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f5b50"/>
+      <stop offset="0.52" stop-color="#143c36"/>
+      <stop offset="1" stop-color="#0b2925"/>
+    </linearGradient>
+    <linearGradient id="sparkle" x1="332" y1="246" x2="704" y2="780" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d1fae5"/>
+      <stop offset="1" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#061b18" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <rect x="58" y="58" width="908" height="908" rx="224" fill="url(#background)"/>
+  <rect x="78" y="78" width="868" height="868" rx="205" fill="none" stroke="#5ee0b4" stroke-opacity="0.2" stroke-width="4"/>
+  <g fill="url(#sparkle)" filter="url(#shadow)">
+    <path d="M512 190c20 142 72 252 230 304-158 52-210 162-230 304-20-142-72-252-230-304 158-52 210-162 230-304Z"/>
+    <path d="M748 172c8 59 30 104 95 126-65 21-87 66-95 125-9-59-30-104-95-125 65-22 86-67 95-126Z" opacity="0.92"/>
+    <path d="M266 650c8 58 29 102 92 123-63 21-84 65-92 123-8-58-29-102-92-123 63-21 84-65 92-123Z" opacity="0.78"/>
+  </g>
+</svg>
