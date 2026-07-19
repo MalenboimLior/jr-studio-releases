@@ -1,5 +1,5 @@
 Jr. Studio Third-Party Notices
-Terms version: 2026-07-16-beta.2
+Terms version: 2026-07-19-beta.1
 
 This file is generated from the installed runtime dependency graph.
 Electron distributions also include Electron and Chromium license files in the packaged application.
