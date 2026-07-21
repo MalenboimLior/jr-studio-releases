@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "0.2.0-beta.13",
-  "minimumAppVersion": "0.2.0-beta.13",
+  "catalogVersion": "0.2.0-beta.14",
+  "minimumAppVersion": "0.2.0-beta.14",
   "creationMetadata": {
-    "createdAt": "2026-07-21T09:56:55.353Z",
-    "appVersion": "0.2.0-beta.13"
+    "createdAt": "2026-07-21T16:57:56.762Z",
+    "appVersion": "0.2.0-beta.14"
   },
   "disabledStarterIds": [],
   "starters": [
