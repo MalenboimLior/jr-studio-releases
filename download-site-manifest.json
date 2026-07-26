@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "version": "0.2.0-beta.15",
-  "tag": "v0.2.0-beta.15",
-  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.15",
-  "downloadUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.15/Jr-Studio-0.2.0-beta.15-arm64.dmg",
+  "version": "0.2.0-beta.18",
+  "tag": "v0.2.0-beta.18",
+  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.18",
+  "downloadUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.18/Jr-Studio-0.2.0-beta.18-arm64.dmg",
   "files": [
     {
       "name": "index.html",
       "bytes": 4442,
-      "sha256": "59f0bb0328484103aed50cbcf7c2bbd4fd9be2c1c7ec37709be75c40632583fa"
+      "sha256": "440faea312e5d313198bcc690595477d12ff24b9a73484a7662c74dbcb83fd3d"
     },
     {
       "name": "he/index.html",
       "bytes": 5050,
-      "sha256": "0ac5834b8b0a9f85fd859a952e0d79bccd197d4015c6bedc75f2a34edcb26ce8"
+      "sha256": "a8f6600794dde7ec22356c199172aa5dcc49baecae06ed7ea47dc448b292c6af"
     },
     {
       "name": "assets/site.css",
