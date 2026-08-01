@@ -10,13 +10,13 @@
     />
     <meta
       name="description"
-      content="הורדת Jr. Studio בטא ל־Mac עם Apple Silicon ויצירת משחקים, סיפורים ואתרים בעזרת Claude, Codex או מצב הדגמה."
+      content="הורדת Jr. Studio בטא ל־Mac או Windows 11 ויצירת משחקים, סיפורים ואתרים בעזרת Claude, Codex או מצב הדגמה."
     />
     <link rel="canonical" href="https://getjr.app/he/" />
     <link rel="alternate" hreflang="en" href="https://getjr.app/" />
     <link rel="stylesheet" href="/assets/site.css" />
     <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
-    <title>Jr. Studio בטא — הורדה ל־Mac</title>
+    <title>Jr. Studio בטא — הורדה ל־Mac או Windows</title>
   </head>
   <body>
     <a class="skip-link" href="#main">דילוג לתוכן</a>
@@ -34,21 +34,33 @@
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <span class="eyebrow">בטא פרטית · Mac עם Apple Silicon</span>
+          <span class="eyebrow">בטא פרטית · Mac + Windows 11</span>
           <h1 id="hero-title">יוצרים את הרעיון.<br />ורואים אותו מתעורר לחיים.</h1>
           <p class="lede">
             Jr. Studio עוזר ליצור משחקים, סיפורים, חידונים ואתרים עם חיבור Claude או
-            Codex שלכם. הפרויקטים נשארים על ה־Mac.
+            Codex שלכם. הפרויקטים נשארים במחשב שלכם.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.22/Jr-Studio-0.2.0-beta.22-arm64.dmg" rel="noopener">
-              הורדה ל־Mac
+            <a class="button primary" data-platform="mac" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.29/Jr-Studio-0.2.0-beta.29-arm64.dmg" rel="noopener">
+              Mac (Apple Silicon)
             </a>
-            <a class="button secondary" href="https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.22" rel="noopener">
+            <a class="button primary" data-platform="windows" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.29/Jr-Studio-0.2.0-beta.29-x64.exe" rel="noopener">
+              Windows 11 (x64)
+            </a>
+            <a class="button secondary" href="https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.29" rel="noopener">
               הערות גרסה וסכומי בדיקה
             </a>
           </div>
-          <p class="release-meta">Jr. Studio 0.2.0-beta.22 · חתום ומאומת</p>
+          <p class="release-meta">Jr. Studio 0.2.0-beta.29 · חתום ומאומת ב־Mac · בטא Windows אינה חתומה</p>
+          <aside class="platform-warning" data-windows-signing="unsigned" aria-labelledby="windows-warning-title">
+            <strong id="windows-warning-title">הודעה חשובה לבטא של Windows</strong>
+            <p>
+              מתקין Windows עדיין אינו חתום דיגיטלית. Windows עשוי להציג
+              “Windows protected your PC”, לזהות מפרסם לא ידוע או לחסום את
+              האפליקציה באמצעות Smart App Control. יש להתקין רק אם סומכים על
+              הורדת הבטא המוזמנת מ־getjr.app, ולאמת אותה מול סכום הבדיקה של הגרסה.
+            </p>
+          </aside>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="app-card">
@@ -73,7 +85,7 @@
         <article>
           <span>03</span>
           <h2>שומרים הכול מקומית</h2>
-          <p>בלי חשבון Jr. ובלי אנליטיקה ברקע. הפרויקטים והגרסאות נשארים על ה־Mac.</p>
+          <p>בלי חשבון Jr. ובלי אנליטיקה ברקע. הפרויקטים והגרסאות נשארים במחשב.</p>
         </article>
       </section>
 
@@ -83,13 +95,13 @@
           <h2 id="install-title">מתקינים את Jr. Studio</h2>
         </div>
         <ol>
-          <li><strong>מורידים</strong><span>פותחים את קובץ ה־DMG החתום מהדף הזה.</span></li>
-          <li><strong>מתקינים</strong><span>גוררים את Jr. Studio לתיקיית היישומים.</span></li>
+          <li><strong>מורידים</strong><span>בוחרים את קובץ ההתקנה וקוראים את אזהרת Windows למעלה.</span></li>
+          <li><strong>מתקינים</strong><span>פותחים DMG חתום ב־Mac או קובץ בטא ‎.exe לא־חתום ב־Windows.</span></li>
           <li><strong>יוצרים</strong><span>פותחים, בוחרים נקודת פתיחה ומתחילים לבנות.</span></li>
         </ol>
         <p class="beta-note">
           זוהי גרסת בטא בהזמנה בלבד. יש להתקין אותה רק אם הוזמנתם לבדוק את Jr. Studio.
-          Jr. יכול להכין דוח בטא מקומי, אך הוא יוצא מה־Mac רק אחרי שבודקים ומשתפים אותו.
+          Jr. יכול להכין דוח בטא מקומי, אך הוא יוצא מהמחשב רק אחרי שבודקים ומשתפים אותו.
         </p>
       </section>
     </main>

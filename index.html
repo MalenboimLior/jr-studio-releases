@@ -10,13 +10,13 @@
     />
     <meta
       name="description"
-      content="Download Jr. Studio Beta for Apple Silicon Mac and build games, stories, and websites with Claude, Codex, or Demo mode."
+      content="Download Jr. Studio Beta for Mac or Windows 11 and build games, stories, and websites with Claude, Codex, or Demo mode."
     />
     <link rel="canonical" href="https://getjr.app/" />
     <link rel="alternate" hreflang="he" href="https://getjr.app/he/" />
     <link rel="stylesheet" href="/assets/site.css" />
     <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
-    <title>Jr. Studio Beta — Download for Mac</title>
+    <title>Jr. Studio Beta — Download for Mac or Windows</title>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -34,21 +34,33 @@
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <span class="eyebrow">Private beta · Apple Silicon Mac</span>
+          <span class="eyebrow">Private beta · Mac + Windows 11</span>
           <h1 id="hero-title">Make the idea.<br />See it come alive.</h1>
           <p class="lede">
             Jr. Studio helps you create games, stories, quizzes, and websites with
-            your own Claude or Codex connection. Your projects stay on your Mac.
+            your own Claude or Codex connection. Your projects stay on your computer.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.22/Jr-Studio-0.2.0-beta.22-arm64.dmg" rel="noopener">
-              Download for Mac
+            <a class="button primary" data-platform="mac" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.29/Jr-Studio-0.2.0-beta.29-arm64.dmg" rel="noopener">
+              Mac (Apple Silicon)
             </a>
-            <a class="button secondary" href="https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.22" rel="noopener">
+            <a class="button primary" data-platform="windows" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.29/Jr-Studio-0.2.0-beta.29-x64.exe" rel="noopener">
+              Windows 11 (x64)
+            </a>
+            <a class="button secondary" href="https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.29" rel="noopener">
               Release notes &amp; checksums
             </a>
           </div>
-          <p class="release-meta">Jr. Studio 0.2.0-beta.22 · Signed and notarized</p>
+          <p class="release-meta">Jr. Studio 0.2.0-beta.29 · Mac signed and notarized · Windows beta unsigned</p>
+          <aside class="platform-warning" data-windows-signing="unsigned" aria-labelledby="windows-warning-title">
+            <strong id="windows-warning-title">Windows beta notice</strong>
+            <p>
+              The Windows installer is not digitally signed yet. Windows may show
+              “Windows protected your PC,” identify an unknown publisher, or block the
+              app with Smart App Control. Install only if you trust this invited beta
+              download from getjr.app, and compare it with the release checksum.
+            </p>
+          </aside>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="app-card">
@@ -73,7 +85,7 @@
         <article>
           <span>03</span>
           <h2>Keep it local</h2>
-          <p>No Jr. account and no background analytics. Projects and version history stay on your Mac.</p>
+          <p>No Jr. account and no background analytics. Projects and version history stay on your computer.</p>
         </article>
       </section>
 
@@ -83,13 +95,13 @@
           <h2 id="install-title">Install Jr. Studio</h2>
         </div>
         <ol>
-          <li><strong>Download</strong><span>Open the signed DMG from this page.</span></li>
-          <li><strong>Install</strong><span>Drag Jr. Studio into Applications.</span></li>
+          <li><strong>Download</strong><span>Choose the installer and read the Windows warning above.</span></li>
+          <li><strong>Install</strong><span>Open the signed DMG on Mac or the unsigned beta .exe on Windows.</span></li>
           <li><strong>Create</strong><span>Launch it, choose a starter, and build.</span></li>
         </ol>
         <p class="beta-note">
           This is an invitation-only beta. Install it only if you were invited to test Jr. Studio.
-          Jr. can prepare a local beta report, but it leaves your Mac only if you review and share it.
+          Jr. can prepare a local beta report, but it leaves your computer only if you review and share it.
         </p>
       </section>
     </main>

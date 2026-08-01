@@ -1,24 +1,37 @@
 {
-  "schemaVersion": 1,
-  "version": "0.2.0-beta.22",
-  "tag": "v0.2.0-beta.22",
-  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.22",
-  "downloadUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.22/Jr-Studio-0.2.0-beta.22-arm64.dmg",
+  "schemaVersion": 2,
+  "version": "0.2.0-beta.29",
+  "tag": "v0.2.0-beta.29",
+  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.29",
+  "downloads": {
+    "mac": {
+      "architecture": "arm64",
+      "artifact": "Jr-Studio-0.2.0-beta.29-arm64.dmg",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.29/Jr-Studio-0.2.0-beta.29-arm64.dmg"
+    },
+    "windows": {
+      "architecture": "x64",
+      "artifact": "Jr-Studio-0.2.0-beta.29-x64.exe",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.29/Jr-Studio-0.2.0-beta.29-x64.exe",
+      "codeSigning": "unsigned",
+      "smartScreenWarning": true
+    }
+  },
   "files": [
     {
       "name": "index.html",
-      "bytes": 4442,
-      "sha256": "6ff3ea567fcf971f7d21c9d3751247aa68801d3e116a3a932a00cf9524a07ace"
+      "bytes": 5403,
+      "sha256": "82d4bfaa5be7879db001988a60eb7e638e1c79d0bba46a35e8cf8d122b01e302"
     },
     {
       "name": "he/index.html",
-      "bytes": 5050,
-      "sha256": "84b270babde5974e9d8be864c72ce5cd4ed5c8fd91f57908639c485395742c76"
+      "bytes": 6158,
+      "sha256": "33f089eaf9bdfbd85a05875342c24c5a6f85830845c851d251ecb7e1b8307a39"
     },
     {
       "name": "assets/site.css",
-      "bytes": 6428,
-      "sha256": "96800401de62b92e57a627b555cf716e446a989d5e9ea1d5006868cd0676c1b7"
+      "bytes": 6745,
+      "sha256": "815abb401272074c65cea28535cf6d286153cfedc0cb4a2e721dc6261ddeae25"
     },
     {
       "name": "assets/icon.svg",
