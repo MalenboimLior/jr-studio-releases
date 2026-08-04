@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "version": "0.2.0-beta.29",
-  "tag": "v0.2.0-beta.29",
-  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.29",
+  "version": "0.2.0-beta.30",
+  "tag": "v0.2.0-beta.30",
+  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.30",
   "downloads": {
     "mac": {
       "architecture": "arm64",
-      "artifact": "Jr-Studio-0.2.0-beta.29-arm64.dmg",
-      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.29/Jr-Studio-0.2.0-beta.29-arm64.dmg"
+      "artifact": "Jr-Studio-0.2.0-beta.30-arm64.dmg",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.30/Jr-Studio-0.2.0-beta.30-arm64.dmg"
     },
     "windows": {
       "architecture": "x64",
-      "artifact": "Jr-Studio-0.2.0-beta.29-x64.exe",
-      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.29/Jr-Studio-0.2.0-beta.29-x64.exe",
+      "artifact": "Jr-Studio-0.2.0-beta.30-x64.exe",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.30/Jr-Studio-0.2.0-beta.30-x64.exe",
       "codeSigning": "unsigned",
       "smartScreenWarning": true
     }
@@ -21,12 +21,12 @@
     {
       "name": "index.html",
       "bytes": 5403,
-      "sha256": "82d4bfaa5be7879db001988a60eb7e638e1c79d0bba46a35e8cf8d122b01e302"
+      "sha256": "b378aa7c28312e4abdfbf0a70c12be2972394c5864825d704aea73c9bd0704f4"
     },
     {
       "name": "he/index.html",
       "bytes": 6158,
-      "sha256": "33f089eaf9bdfbd85a05875342c24c5a6f85830845c851d251ecb7e1b8307a39"
+      "sha256": "a833833ac15664978e6b3070a97ac37df7f9fb7c170f6ad2fc075e8630e590ac"
     },
     {
       "name": "assets/site.css",
