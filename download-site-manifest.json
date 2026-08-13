@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "version": "0.2.0-beta.35",
-  "tag": "v0.2.0-beta.35",
-  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.35",
+  "version": "0.2.0-beta.37",
+  "tag": "v0.2.0-beta.37",
+  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.37",
   "downloads": {
     "mac": {
       "architecture": "arm64",
-      "artifact": "Jr-Studio-0.2.0-beta.35-arm64.dmg",
-      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.35/Jr-Studio-0.2.0-beta.35-arm64.dmg"
+      "artifact": "Jr-Studio-0.2.0-beta.37-arm64.dmg",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.37/Jr-Studio-0.2.0-beta.37-arm64.dmg"
     },
     "windows": {
       "architecture": "x64",
-      "artifact": "Jr-Studio-0.2.0-beta.35-x64.exe",
-      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.35/Jr-Studio-0.2.0-beta.35-x64.exe",
+      "artifact": "Jr-Studio-0.2.0-beta.37-x64.exe",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.37/Jr-Studio-0.2.0-beta.37-x64.exe",
       "codeSigning": "unsigned",
       "smartScreenWarning": true
     }
@@ -20,18 +20,18 @@
   "files": [
     {
       "name": "index.html",
-      "bytes": 8250,
-      "sha256": "0eda0596673c9f6948f8686efb5385eb33bf7e473382a2bbe1ce49b82021a647"
+      "bytes": 6151,
+      "sha256": "75abcff2ceec75277ba1199adb6b1a4e80babbf4213d2cfdd7bfcec745ddf436"
     },
     {
       "name": "he/index.html",
-      "bytes": 9834,
-      "sha256": "ed6505e5f9131e346da50cb90fcdf6b81c187e9df8ffcf50a7a66975a92a2b9a"
+      "bytes": 7381,
+      "sha256": "3c9c72c7334a1cfcb9fe3e6f51d3712cf341424184252c7e9169984e6e476962"
     },
     {
       "name": "assets/site.css",
-      "bytes": 8101,
-      "sha256": "d3dca50522f6e575cab2215e904d19e9830ac4e3947dcc47e7b13f95b95ad832"
+      "bytes": 6836,
+      "sha256": "ff0738a940897985592d4e02ae44f4483c2793f5cc5129ae8b6e99e3e76affb2"
     },
     {
       "name": "assets/icon.svg",
