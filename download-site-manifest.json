@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "version": "0.2.0-beta.34",
-  "tag": "v0.2.0-beta.34",
-  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.34",
+  "version": "0.2.0-beta.35",
+  "tag": "v0.2.0-beta.35",
+  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.35",
   "downloads": {
     "mac": {
       "architecture": "arm64",
-      "artifact": "Jr-Studio-0.2.0-beta.34-arm64.dmg",
-      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.34/Jr-Studio-0.2.0-beta.34-arm64.dmg"
+      "artifact": "Jr-Studio-0.2.0-beta.35-arm64.dmg",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.35/Jr-Studio-0.2.0-beta.35-arm64.dmg"
     },
     "windows": {
       "architecture": "x64",
-      "artifact": "Jr-Studio-0.2.0-beta.34-x64.exe",
-      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.34/Jr-Studio-0.2.0-beta.34-x64.exe",
+      "artifact": "Jr-Studio-0.2.0-beta.35-x64.exe",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.35/Jr-Studio-0.2.0-beta.35-x64.exe",
       "codeSigning": "unsigned",
       "smartScreenWarning": true
     }
@@ -20,23 +20,28 @@
   "files": [
     {
       "name": "index.html",
-      "bytes": 5403,
-      "sha256": "95ccc0ee96fb857373a45ad32b77ce8643775682751c8bbb7cbb346b4deff141"
+      "bytes": 8250,
+      "sha256": "0eda0596673c9f6948f8686efb5385eb33bf7e473382a2bbe1ce49b82021a647"
     },
     {
       "name": "he/index.html",
-      "bytes": 6158,
-      "sha256": "1209bcf407d52faa5dea3cfcd1ffb36615529acb11873b11a15a72d2d91e37c9"
+      "bytes": 9834,
+      "sha256": "ed6505e5f9131e346da50cb90fcdf6b81c187e9df8ffcf50a7a66975a92a2b9a"
     },
     {
       "name": "assets/site.css",
-      "bytes": 6745,
-      "sha256": "815abb401272074c65cea28535cf6d286153cfedc0cb4a2e721dc6261ddeae25"
+      "bytes": 8101,
+      "sha256": "d3dca50522f6e575cab2215e904d19e9830ac4e3947dcc47e7b13f95b95ad832"
     },
     {
       "name": "assets/icon.svg",
       "bytes": 1454,
       "sha256": "322b5f94075d9f5c6acfd93f75e284d2cfb0afb0a068efc6ef767bc72d94b2c5"
+    },
+    {
+      "name": "assets/social-card.png",
+      "bytes": 322044,
+      "sha256": "8f5828a40ebcfc0ab5be9f7846cac028cc19b239ccef3d7a7ab58fbf67570019"
     }
   ]
 }

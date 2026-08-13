@@ -10,13 +10,32 @@
     />
     <meta
       name="description"
-      content="Download Jr. Studio Beta for Mac or Windows 11 and build games, stories, and websites with Claude, Codex, or Demo mode."
+      content="Join the private Jr. Studio beta and build games, stories, and websites with Claude, Codex, or Demo mode."
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Jr. Studio" />
+    <meta property="og:title" content="Jr. Studio private beta" />
+    <meta
+      property="og:description"
+      content="Build games, stories, and websites with the AI you already use. Local projects, no Jr. account, and no background analytics."
+    />
+    <meta property="og:url" content="https://getjr.app/" />
+    <meta property="og:image" content="https://getjr.app/assets/social-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Jr. Studio private beta" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jr. Studio private beta" />
+    <meta
+      name="twitter:description"
+      content="Build games, stories, and websites with the AI you already use. Local, private, and made for a simple first creation."
+    />
+    <meta name="twitter:image" content="https://getjr.app/assets/social-card.png" />
     <link rel="canonical" href="https://getjr.app/" />
     <link rel="alternate" hreflang="he" href="https://getjr.app/he/" />
     <link rel="stylesheet" href="/assets/site.css" />
     <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
-    <title>Jr. Studio Beta — Download for Mac or Windows</title>
+    <title>Jr. Studio private beta — Join the early testers</title>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -41,26 +60,13 @@
             your own Claude or Codex connection. Your projects stay on your computer.
           </p>
           <div class="hero-actions">
-            <a class="button primary" data-platform="mac" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.34/Jr-Studio-0.2.0-beta.34-arm64.dmg" rel="noopener">
-              Mac (Apple Silicon)
+            <a class="button primary" href="#join">
+              Join the private beta
             </a>
-            <a class="button primary" data-platform="windows" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.34/Jr-Studio-0.2.0-beta.34-x64.exe" rel="noopener">
-              Windows 11 (x64)
-            </a>
-            <a class="button secondary" href="https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.34" rel="noopener">
-              Release notes &amp; checksums
+            <a class="button secondary" href="#download">
+              Already invited? Download
             </a>
           </div>
-          <p class="release-meta">Jr. Studio 0.2.0-beta.34 · Mac signed and notarized · Windows beta unsigned</p>
-          <aside class="platform-warning" data-windows-signing="unsigned" aria-labelledby="windows-warning-title">
-            <strong id="windows-warning-title">Windows beta notice</strong>
-            <p>
-              The Windows installer is not digitally signed yet. Windows may show
-              “Windows protected your PC,” identify an unknown publisher, or block the
-              app with Smart App Control. Install only if you trust this invited beta
-              download from getjr.app, and compare it with the release checksum.
-            </p>
-          </aside>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="app-card">
@@ -89,16 +95,68 @@
         </article>
       </section>
 
-      <section class="install" aria-labelledby="install-title">
+      <section class="beta-signup" id="join" aria-labelledby="join-title">
         <div>
-          <span class="eyebrow">Three simple steps</span>
-          <h2 id="install-title">Install Jr. Studio</h2>
+          <span class="eyebrow">Small, personal beta</span>
+          <h2 id="join-title">Help shape the first creation</h2>
+          <p>
+            We are inviting a small group of early testers. Tell us what computer and
+            AI connection you use and what you would like to make. We will reply personally.
+          </p>
         </div>
-        <ol>
-          <li><strong>Download</strong><span>Choose the installer and read the Windows warning above.</span></li>
-          <li><strong>Install</strong><span>Open the signed DMG on Mac or the unsigned beta .exe on Windows.</span></li>
-          <li><strong>Create</strong><span>Launch it, choose a starter, and build.</span></li>
-        </ol>
+        <div class="signup-card">
+          <h3>Request an invitation</h3>
+          <p>The prepared email asks only for:</p>
+          <ul>
+            <li>Your name and preferred reply address</li>
+            <li>Mac or Windows 11</li>
+            <li>Claude, Codex, or Demo mode</li>
+            <li>One thing you would like to create</li>
+          </ul>
+          <a
+            class="button primary"
+            href="mailto:support@getjr.app?subject=Jr.%20Studio%20private%20beta&amp;body=Name%3A%0APreferred%20reply%20address%3A%0AComputer%20%28Mac%20or%20Windows%2011%29%3A%0AAI%20connection%20%28Claude%2C%20Codex%2C%20or%20Demo%29%3A%0AWhat%20I%20would%20like%20to%20create%3A%0A"
+          >Request a beta invitation</a>
+          <p class="privacy-note">
+            No mailing list and no automatic analytics. Accepted testers may also be
+            invited to one small feedback group; email always remains an option.
+          </p>
+        </div>
+      </section>
+
+      <section class="install" id="download" aria-labelledby="install-title">
+        <div>
+          <span class="eyebrow">Invited testers</span>
+          <h2 id="install-title">Download Jr. Studio</h2>
+        </div>
+        <div class="install-details">
+          <div class="hero-actions">
+            <a class="button primary" data-platform="mac" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.35/Jr-Studio-0.2.0-beta.35-arm64.dmg" rel="noopener">
+              Mac (Apple Silicon)
+            </a>
+            <a class="button primary" data-platform="windows" href="https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.35/Jr-Studio-0.2.0-beta.35-x64.exe" rel="noopener">
+              Windows 11 (x64)
+            </a>
+            <a class="button secondary" href="https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.35" rel="noopener">
+              Release notes &amp; checksums
+            </a>
+          </div>
+          <p class="release-meta">Jr. Studio 0.2.0-beta.35 · Mac signed and notarized · Windows beta unsigned</p>
+          <aside class="platform-warning" data-windows-signing="unsigned" aria-labelledby="windows-warning-title">
+            <strong id="windows-warning-title">Windows beta notice</strong>
+            <p>
+              The Windows installer is not digitally signed yet. Windows may show
+              “Windows protected your PC,” identify an unknown publisher, or block the
+              app with Smart App Control. Install only if you trust this invited beta
+              download from getjr.app, and compare it with the release checksum.
+            </p>
+          </aside>
+          <ol>
+            <li><strong>Download</strong><span>Choose the installer and read the Windows warning above.</span></li>
+            <li><strong>Install</strong><span>Open the signed DMG on Mac or the unsigned beta .exe on Windows.</span></li>
+            <li><strong>Create</strong><span>Launch it, choose a starter, and build.</span></li>
+          </ol>
+        </div>
         <p class="beta-note">
           This is an invitation-only beta. Install it only if you were invited to test Jr. Studio.
           Jr. can prepare a local beta report, but it leaves your computer only if you review and share it.
