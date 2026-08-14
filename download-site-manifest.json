@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "version": "0.2.0-beta.37",
-  "tag": "v0.2.0-beta.37",
-  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.37",
+  "version": "0.2.0-beta.38",
+  "tag": "v0.2.0-beta.38",
+  "releaseUrl": "https://github.com/MalenboimLior/jr-studio-releases/releases/tag/v0.2.0-beta.38",
   "downloads": {
     "mac": {
       "architecture": "arm64",
-      "artifact": "Jr-Studio-0.2.0-beta.37-arm64.dmg",
-      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.37/Jr-Studio-0.2.0-beta.37-arm64.dmg"
+      "artifact": "Jr-Studio-0.2.0-beta.38-arm64.dmg",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.38/Jr-Studio-0.2.0-beta.38-arm64.dmg"
     },
     "windows": {
       "architecture": "x64",
-      "artifact": "Jr-Studio-0.2.0-beta.37-x64.exe",
-      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.37/Jr-Studio-0.2.0-beta.37-x64.exe",
+      "artifact": "Jr-Studio-0.2.0-beta.38-x64.exe",
+      "url": "https://github.com/MalenboimLior/jr-studio-releases/releases/download/v0.2.0-beta.38/Jr-Studio-0.2.0-beta.38-x64.exe",
       "codeSigning": "unsigned",
       "smartScreenWarning": true
     }
@@ -20,18 +20,23 @@
   "files": [
     {
       "name": "index.html",
-      "bytes": 6151,
-      "sha256": "75abcff2ceec75277ba1199adb6b1a4e80babbf4213d2cfdd7bfcec745ddf436"
+      "bytes": 7109,
+      "sha256": "a63fbd3860c749d406b7e0a1dbf4f8e361d2c8b62f6ee44a99c5c505d703e17c"
     },
     {
       "name": "he/index.html",
-      "bytes": 7381,
-      "sha256": "3c9c72c7334a1cfcb9fe3e6f51d3712cf341424184252c7e9169984e6e476962"
+      "bytes": 8025,
+      "sha256": "33ebf09161abd2fbf9375bc126bd681b3608e802c90455c54f4806087563b89f"
     },
     {
       "name": "assets/site.css",
-      "bytes": 6836,
-      "sha256": "ff0738a940897985592d4e02ae44f4483c2793f5cc5129ae8b6e99e3e76affb2"
+      "bytes": 7911,
+      "sha256": "4330efd81317e39c4cecd0188073ddbee07763d1f3f66692ae40aa37c3fbc917"
+    },
+    {
+      "name": "assets/join.js",
+      "bytes": 2124,
+      "sha256": "87b1f291f62cdfaecd35ff23661aae3d6b4f346511c79bbbf3a7fafea941f848"
     },
     {
       "name": "assets/icon.svg",

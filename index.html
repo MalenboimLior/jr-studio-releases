@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#123d36" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'none'; style-src 'self'; img-src 'self'; font-src 'none'; script-src 'none'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"
+      content="default-src 'none'; style-src 'self'; img-src 'self'; font-src 'none'; script-src 'self'; connect-src https://jr-beta-api-271743767831.me-west1.run.app; object-src 'none'; base-uri 'none'; form-action 'none'"
     />
     <meta
       name="description"
@@ -35,6 +35,7 @@
     <link rel="alternate" hreflang="he" href="https://getjr.app/he/" />
     <link rel="stylesheet" href="/assets/site.css" />
     <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
+    <script src="/assets/join.js" defer></script>
     <title>Jr. Studio private beta — Join the early testers</title>
   </head>
   <body>
@@ -97,32 +98,46 @@
           <span class="eyebrow">Small, personal beta</span>
           <h2 id="join-title">Help shape the first creation</h2>
           <p>
-            We are inviting a small group of early testers. Tell us what computer and
-            AI connection you use and what you would like to make. We will reply personally.
+            We are inviting a small group of early testers. Enter your email and receive
+            a personal invitation by email, or continue the conversation on WhatsApp.
           </p>
         </div>
         <div class="signup-card">
           <h3>Request an invitation</h3>
-          <p>The prepared email asks only for:</p>
-          <ul>
-            <li>Your name and preferred reply address</li>
-            <li>Mac or Windows 11</li>
-            <li>Claude, Codex, or Demo mode</li>
-            <li>One thing you would like to create</li>
-          </ul>
-          <a
-            class="button primary"
-            href="mailto:support@getjr.app?subject=Jr.%20Studio%20private%20beta&amp;body=Name%3A%0APreferred%20reply%20address%3A%0AComputer%20%28Mac%20or%20Windows%2011%29%3A%0AAI%20connection%20%28Claude%2C%20Codex%2C%20or%20Demo%29%3A%0AWhat%20I%20would%20like%20to%20create%3A%0A"
-          >Request a beta invitation</a>
+          <p>One field. Your personal download invitation arrives automatically.</p>
+          <form
+            class="signup-form"
+            data-beta-signup-form
+            data-endpoint="https://jr-beta-api-271743767831.me-west1.run.app/v1/beta/requests"
+            data-locale="en"
+            data-pending="Sending your invitation…"
+            data-success="Invitation sent. Check your inbox."
+            data-whatsapp="Opening WhatsApp…"
+            data-error="We could not send the invitation. Please try again."
+            data-invalid="Enter a valid email address."
+          >
+            <label for="beta-email">Email address</label>
+            <input id="beta-email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="254" placeholder="you@example.com" />
+            <div class="website-field" aria-hidden="true">
+              <label for="beta-company">Company</label>
+              <input id="beta-company" name="company" type="text" tabindex="-1" autocomplete="off" />
+            </div>
+            <div class="signup-actions">
+              <button class="button primary" type="submit" data-channel="email">Send my invitation</button>
+              <button class="button secondary whatsapp-button" type="submit" data-channel="whatsapp">Continue on WhatsApp</button>
+            </div>
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          </form>
           <p class="privacy-note">
-            No mailing list and no automatic analytics. Accepted testers may also be
-            invited to one small feedback group; email always remains an option.
+            We store your email, referral source, invitation opens, and download clicks
+            only to operate and learn from this beta. No newsletter or background product
+            analytics. See <a href="/legal/privacy/">Privacy</a>.
           </p>
           <div class="accepted-note" data-windows-signing="unsigned">
             <strong>Already accepted?</strong>
             <p>
-              We send each accepted tester a version-specific download link and install
-              notes by email. The Windows beta is unsigned, so Windows may show
+              We send each tester a personal, version-specific download link and install
+              notes. The Windows beta is unsigned, so Windows may show
               “Windows protected your PC.”
             </p>
           </div>
